@@ -1,0 +1,323 @@
+/* Pushes Footer to the Bottom*/
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4.5em;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.push {
+	height: 4.5em;
+    clear: both;
+}
+
+/* NON-SPECIFIC */
+
+h1 {
+	display: none;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+/* Important for Buttons with symbols: */
+.btn i {
+    line-height: inherit;
+}
+
+
+/* INDEX PAGE*/
+
+.imgFooter {opacity: 0.4;filter: alpha(opacity=40);}
+.imgFooter:hover {opacity: 0.9;filter: alpha(opacity=90);}
+
+.bibl{color:#999;}
+.quote{color:#000;}
+.note{color:#600;}
+.entity{color:#600;font-weight:700}
+.highlight{background:#515151; color:#FFF;border-radius: 5px;}
+.mainText{    max-height: 300px;    overflow-x: scroll;width:100%;  margin: auto;border-radius: 5px;background-color:#FFF;border:0px solid #AAA; padding: 20px; font-size:14pt}
+.zoomText{word-wrap: break-word;direction: rtl;width:100%;margin: auto;border-radius: 5px;background-color:#FFF;border:0px solid #FFF; padding: 10px; }
+.toggle-btn-grp { 
+    margin:3px 0; 
+}
+.statistics{margin:15px;}
+.stem{font-family: Courier New; font-size: 12pt;font-weight: 700}
+.already_annotated{font-family: Courier New; font-size: 14pt;font-weight: 700; color:green}
+.label_radio{ padding:5px 25px; margin:5px; direction:rtl }
+.NoClass{background:#FFF; color:#000;border-radius: 5px;}
+.bar{color:#CCC;font-weight:700}
+.subtitle{color:#888;font-weight:700}
+.chkGrp { 
+    text-align:centre; 
+    margin:2px 0px;
+    padding:2px; 
+    color:#000; 
+    background-color:#FFF; 
+    border-radius:3px; 
+    display:inline-block; 
+    border:solid 1px #FFF; 
+    cursor:pointer;
+}
+.chkGrp:hover { 
+
+    background-color:#DDD; 
+    border-radius:3px; 
+    display:inline-block; 
+    border:solid 1px #AAA; 
+    cursor:pointer;
+}
+
+
+.inputBox{height: 25px;width: 100px;font-family: 'Courier New';font-size:10px}
+.morphBox {margin:1px 0px;padding:1px 0px;align:left}
+.labelBox{padding: 0px 12px;margin:0px;}
+
+.foreign{ color:#3333FF;font-weight:700;}
+.etym{color:#FF3333;font-weight:700;}
+.usg{color:#888833;font-weight:700;}
+.lit{font-size:10px;}
+.lit i {color:#666666}
+.subTit{font-size:12px;}
+.pofs{background-color:#FF0000;color:#FFF}
+.case{background-color:#008800;color:#FFF}
+.number{background-color:#888800;color:#FFF}
+.gender{background-color:#880088;color:#FFF}
+.tense{background-color:#880088;color:#FFF}
+.mood{background-color:#888888;color:#FFF}
+.person{background-color:#FFAA88;color:#FFF}
+.degree{background-color:#AAFF88;color:#FFF}
+
+.dbdgPOS{background-color:#FF0000}
+#header {
+	/*margin-top: 5%;*/
+	background: url("logo_dh_light.png") no-repeat center center;
+	height: 280px;
+
+}
+
+#header.load {
+    opacity: 1;
+}
+
+/* I want my glyphicons to float left */
+.panel-title  .fa {
+    display: inline-block;
+    float: left;
+}
+
+/* remove Padding from button-glyph */
+.buttonglyph{
+    padding: 0;
+}
+
+/* Random Elements */
+.randomgroup {
+    list-style: none;
+    padding: 0px;
+} 
+
+.randomgroup li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.beschreibungindex {
+    min-height: 5em;
+}
+
+.desc_nowrap {
+    white-space: nowrap;
+}
+
+/* FOOTER */
+#footer{
+	background: #F5F5F5;
+	width: 100%;
+	padding-top: 4px;
+	min-height: 4.5em;
+    box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.05);
+    border-top: 1px solid #DDD;
+    text-align: center;
+	
+}
+#footer p {
+	font-size: 12px;
+	color: #FFF;
+	margin-bottom: 1px;
+}
+
+#footerlist{
+    margin-bottom: 5px;
+}
+
+#footerlist li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/* RESPAGE */
+
+.navbar-header {
+    min-height: 75px;
+    width: 200px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.navbar-brand-ws {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.navbar-form {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-btn {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+/* Tooltip width */
+div.tooltip-inner {
+    max-width: 350px;
+    width: 100%;
+}
+
+/*End Modal */
+
+
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.modal{width:auto, height:auto}
+
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+
+.ENtities{
+  list-style-type: none;
+  list-style:none;
+ }
+
+.ENtities li:hover {
+    background-color: #DEF;    list-style-type: none;
+    list-style:none;
+} 
+    .custom-menu {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    overflow: hidden;
+    border: 1px solid #CCC;
+    white-space: nowrap;
+    font-family: sans-serif;
+    background: #FFF;
+    color: #333;
+    border-radius: 5px;
+    list-style-type: none;
+    list-style:none;
+   
+}
+
+.custom-menu li {
+    padding: 8px 12px;
+    list-style:none;
+    cursor: pointer;
+}
+
+.custom-menu li:hover {
+    background-color: #DEF;    list-style-type: none;
+    list-style:none;
+}
+
+.mainText::-moz-selection { background-color: #000 ; color:#FFF}
+.mainText::selection { background-color: #000 ; color:#FFF }
